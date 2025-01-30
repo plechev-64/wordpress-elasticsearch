@@ -1,8 +1,8 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Search\Filter;
+namespace Src\Module\ElasticSearch\Search\Filter;
 
-use Gosweb\Module\ElasticSearch\Enum\Operator;
+use Src\Module\ElasticSearch\Enum\Operator;
 
 class Condition
 {

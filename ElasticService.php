@@ -1,22 +1,22 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch;
+namespace Src\Module\ElasticSearch;
 
 use Doctrine\Common\EventManager;
-use Gosweb\Core\Entity\Post;
-use Gosweb\Core\Repository\PostRepository;
-use Gosweb\Core\Transformer\TransformerManager;
-use Gosweb\Core\Wordpress\PostType\PostTypeManager;
-use Gosweb\Module\ElasticSearch\DTO\Model\PostDTO;
-use Gosweb\Module\ElasticSearch\Enum\Index;
-use Gosweb\Module\ElasticSearch\Event\ElasticEvents;
-use Gosweb\Module\ElasticSearch\Event\EventMessage\PreSearchPostIndexMessage;
-use Gosweb\Module\ElasticSearch\Event\EventMessage\PreUpdatePostIndexMessage;
-use Gosweb\Module\ElasticSearch\Index\PostIndex;
-use Gosweb\Module\ElasticSearch\Search\Post\PostRequest;
-use Gosweb\Module\ElasticSearch\Search\Post\PostSearchFilter;
-use Gosweb\Module\ElasticSearch\Search\SearchResponseHit;
-use Gosweb\Module\ElasticSearch\Search\SearchResult;
+use Src\Core\Entity\Post;
+use Src\Core\Repository\PostRepository;
+use Src\Core\Transformer\TransformerManager;
+use Src\Core\Wordpress\PostType\PostTypeManager;
+use Src\Module\ElasticSearch\DTO\Model\PostDTO;
+use Src\Module\ElasticSearch\Enum\Index;
+use Src\Module\ElasticSearch\Event\ElasticEvents;
+use Src\Module\ElasticSearch\Event\EventMessage\PreSearchPostIndexMessage;
+use Src\Module\ElasticSearch\Event\EventMessage\PreUpdatePostIndexMessage;
+use Src\Module\ElasticSearch\Index\PostIndex;
+use Src\Module\ElasticSearch\Search\Post\PostRequest;
+use Src\Module\ElasticSearch\Search\Post\PostSearchFilter;
+use Src\Module\ElasticSearch\Search\SearchResponseHit;
+use Src\Module\ElasticSearch\Search\SearchResult;
 use Psr\Container\ContainerInterface;
 
 class ElasticService

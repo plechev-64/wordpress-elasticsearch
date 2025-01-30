@@ -1,11 +1,11 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\DTO\Transformer;
+namespace Src\Module\ElasticSearch\DTO\Transformer;
 
-use Gosweb\Core\Entity\Term;
-use Gosweb\Core\Repository\TermTaxonomyRepository;
-use Gosweb\Core\Transformer\TransformerAbstract;
-use Gosweb\Module\ElasticSearch\DTO\Model\TermDTO;
+use Src\Core\Entity\Term;
+use Src\Core\Repository\TermTaxonomyRepository;
+use Src\Core\Transformer\TransformerAbstract;
+use Src\Module\ElasticSearch\DTO\Model\TermDTO;
 
 class TermDTOFromEntityTransformer extends TransformerAbstract
 {

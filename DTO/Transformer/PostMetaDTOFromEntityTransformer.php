@@ -1,10 +1,10 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\DTO\Transformer;
+namespace Src\Module\ElasticSearch\DTO\Transformer;
 
-use Gosweb\Core\Entity\PostMeta;
-use Gosweb\Core\Transformer\TransformerAbstract;
-use Gosweb\Module\ElasticSearch\DTO\Model\PostMetaDTO;
+use Src\Core\Entity\PostMeta;
+use Src\Core\Transformer\TransformerAbstract;
+use Src\Module\ElasticSearch\DTO\Model\PostMetaDTO;
 
 class PostMetaDTOFromEntityTransformer extends TransformerAbstract
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Search;
+namespace Src\Module\ElasticSearch\Search;
 
-use Gosweb\Module\ElasticSearch\Enum\Aggregator;
-use Gosweb\Module\ElasticSearch\Enum\Operator;
-use Gosweb\Module\ElasticSearch\Search\Filter\Condition;
-use Gosweb\Module\ElasticSearch\Search\Filter\ConditionGroup;
-use Gosweb\Module\ElasticSearch\Search\Filter\ElasticFilterAbstract;
-use Gosweb\Module\ElasticSearch\Search\Post\PostSearchFilter;
+use Src\Module\ElasticSearch\Enum\Aggregator;
+use Src\Module\ElasticSearch\Enum\Operator;
+use Src\Module\ElasticSearch\Search\Filter\Condition;
+use Src\Module\ElasticSearch\Search\Filter\ConditionGroup;
+use Src\Module\ElasticSearch\Search\Filter\ElasticFilterAbstract;
+use Src\Module\ElasticSearch\Search\Post\PostSearchFilter;
 
 abstract class ElasticRequest
 {

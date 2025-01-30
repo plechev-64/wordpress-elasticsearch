@@ -1,12 +1,12 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch;
+namespace Src\Module\ElasticSearch;
 
 use Elastic\Elasticsearch\Client;
 use Elastic\Elasticsearch\Response\Elasticsearch;
-use Gosweb\Module\ElasticSearch\Enum\Index;
-use Gosweb\Module\ElasticSearch\Index\ElasticIndex;
-use Gosweb\Module\ElasticSearch\Search\ElasticRequest;
+use Src\Module\ElasticSearch\Enum\Index;
+use Src\Module\ElasticSearch\Index\ElasticIndex;
+use Src\Module\ElasticSearch\Search\ElasticRequest;
 
 class ElasticClient implements ElasticClientInterface
 {

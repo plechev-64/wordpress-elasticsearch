@@ -1,13 +1,13 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch;
+namespace Src\Module\ElasticSearch;
 
 use Doctrine\Common\EventManager;
-use Gosweb\Core\Transformer\TransformerManager;
-use Gosweb\Module\ElasticSearch\DTO\Model\PostDTO;
-use Gosweb\Module\ElasticSearch\Event\ElasticEvents;
-use Gosweb\Module\ElasticSearch\Event\EventMessage\PreSearchWPQueryMessage;
-use Gosweb\Module\ElasticSearch\Search\Post\PostSearchFilter;
+use Src\Core\Transformer\TransformerManager;
+use Src\Module\ElasticSearch\DTO\Model\PostDTO;
+use Src\Module\ElasticSearch\Event\ElasticEvents;
+use Src\Module\ElasticSearch\Event\EventMessage\PreSearchWPQueryMessage;
+use Src\Module\ElasticSearch\Search\Post\PostSearchFilter;
 use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\ContainerInterface;
 use Psr\Container\NotFoundExceptionInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Index;
+namespace Src\Module\ElasticSearch\Index;
 
 abstract class ElasticIndex
 {

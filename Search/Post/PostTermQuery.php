@@ -1,8 +1,8 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Search\Post;
+namespace Src\Module\ElasticSearch\Search\Post;
 
-use Gosweb\Module\ElasticSearch\Search\Post\Enum\QueryRelation;
+use Src\Module\ElasticSearch\Search\Post\Enum\QueryRelation;
 
 class PostTermQuery
 {

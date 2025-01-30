@@ -1,12 +1,12 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\DTO\Transformer;
+namespace Src\Module\ElasticSearch\DTO\Transformer;
 
-use Gosweb\Core\Transformer\TransformerAbstract;
-use Gosweb\Module\ElasticSearch\DTO\Model\PostDTO;
-use Gosweb\Module\ElasticSearch\DTO\Model\PostMetaDTO;
-use Gosweb\Module\ElasticSearch\DTO\Model\TermDTO;
-use Gosweb\Module\ElasticSearch\Search\SearchResponseHit;
+use Src\Core\Transformer\TransformerAbstract;
+use Src\Module\ElasticSearch\DTO\Model\PostDTO;
+use Src\Module\ElasticSearch\DTO\Model\PostMetaDTO;
+use Src\Module\ElasticSearch\DTO\Model\TermDTO;
+use Src\Module\ElasticSearch\Search\SearchResponseHit;
 
 class PostDTOFromSearchResponseTransformer extends TransformerAbstract
 {

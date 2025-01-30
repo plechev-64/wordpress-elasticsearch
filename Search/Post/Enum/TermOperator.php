@@ -1,6 +1,6 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Search\Post\Enum;
+namespace Src\Module\ElasticSearch\Search\Post\Enum;
 
 enum TermOperator: string {
     case AND = 'AND';

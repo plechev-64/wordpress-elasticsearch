@@ -1,9 +1,9 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Event\EventMessage;
+namespace Src\Module\ElasticSearch\Event\EventMessage;
 
 use Doctrine\Common\EventArgs;
-use Gosweb\Module\ElasticSearch\Search\Post\PostSearchFilter;
+use Src\Module\ElasticSearch\Search\Post\PostSearchFilter;
 
 class PreSearchPostIndexMessage extends EventArgs
 {

@@ -1,21 +1,21 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\DTO\Transformer;
+namespace Src\Module\ElasticSearch\DTO\Transformer;
 
-use Gosweb\Core\Transformer\TransformerAbstract;
-use Gosweb\Module\ElasticSearch\Enum\SortOrder;
-use Gosweb\Module\ElasticSearch\Search\Post\Enum\MetaCompare;
-use Gosweb\Module\ElasticSearch\Search\Post\Enum\TermOperator;
-use Gosweb\Module\ElasticSearch\Search\Post\Enum\QueryRelation;
-use Gosweb\Module\ElasticSearch\Search\Post\PostDateCondition;
-use Gosweb\Module\ElasticSearch\Search\Post\PostDateQuery;
-use Gosweb\Module\ElasticSearch\Search\Post\PostMetaCondition;
-use Gosweb\Module\ElasticSearch\Search\Post\PostMetaQuery;
-use Gosweb\Module\ElasticSearch\Search\Post\PostSearchFilter;
-use Gosweb\Module\ElasticSearch\Search\Post\PostTermCondition;
-use Gosweb\Module\ElasticSearch\Search\Post\PostTermQuery;
-use Gosweb\Module\ElasticSearch\Search\SortCondition;
-use Gosweb\Module\ElasticSearch\Search\SortResult;
+use Src\Core\Transformer\TransformerAbstract;
+use Src\Module\ElasticSearch\Enum\SortOrder;
+use Src\Module\ElasticSearch\Search\Post\Enum\MetaCompare;
+use Src\Module\ElasticSearch\Search\Post\Enum\TermOperator;
+use Src\Module\ElasticSearch\Search\Post\Enum\QueryRelation;
+use Src\Module\ElasticSearch\Search\Post\PostDateCondition;
+use Src\Module\ElasticSearch\Search\Post\PostDateQuery;
+use Src\Module\ElasticSearch\Search\Post\PostMetaCondition;
+use Src\Module\ElasticSearch\Search\Post\PostMetaQuery;
+use Src\Module\ElasticSearch\Search\Post\PostSearchFilter;
+use Src\Module\ElasticSearch\Search\Post\PostTermCondition;
+use Src\Module\ElasticSearch\Search\Post\PostTermQuery;
+use Src\Module\ElasticSearch\Search\SortCondition;
+use Src\Module\ElasticSearch\Search\SortResult;
 
 class PostSearchFilterDTOFromWPQueryVarsTransformer extends TransformerAbstract
 {

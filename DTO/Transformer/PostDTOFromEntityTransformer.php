@@ -1,16 +1,16 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\DTO\Transformer;
+namespace Src\Module\ElasticSearch\DTO\Transformer;
 
-use Gosweb\Core\Entity\Post;
-use Gosweb\Core\Repository\PostMetaRepository;
-use Gosweb\Core\Repository\TermRepository;
-use Gosweb\Core\Transformer\Exception\TransformerException;
-use Gosweb\Core\Transformer\TransformerAbstract;
-use Gosweb\Core\Transformer\TransformerManager;
-use Gosweb\Module\ElasticSearch\DTO\Model\PostDTO;
-use Gosweb\Module\ElasticSearch\DTO\Model\PostMetaDTO;
-use Gosweb\Module\ElasticSearch\DTO\Model\TermDTO;
+use Src\Core\Entity\Post;
+use Src\Core\Repository\PostMetaRepository;
+use Src\Core\Repository\TermRepository;
+use Src\Core\Transformer\Exception\TransformerException;
+use Src\Core\Transformer\TransformerAbstract;
+use Src\Core\Transformer\TransformerManager;
+use Src\Module\ElasticSearch\DTO\Model\PostDTO;
+use Src\Module\ElasticSearch\DTO\Model\PostMetaDTO;
+use Src\Module\ElasticSearch\DTO\Model\TermDTO;
 
 class PostDTOFromEntityTransformer extends TransformerAbstract
 {

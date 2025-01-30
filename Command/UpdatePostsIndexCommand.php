@@ -1,14 +1,14 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Command;
+namespace Src\Module\ElasticSearch\Command;
 
 use Doctrine\ORM\EntityManagerInterface;
-use Gosweb\Core\Entity\Post;
-use Gosweb\Core\Helper\Paginator;
-use Gosweb\Core\Transformer\TransformerManager;
-use Gosweb\Module\ElasticSearch\DTO\Model\PostDTO;
-use Gosweb\Module\ElasticSearch\ElasticService;
-use Gosweb\Module\ElasticSearch\Index\PostIndex;
+use Src\Core\Entity\Post;
+use Src\Core\Helper\Paginator;
+use Src\Core\Transformer\TransformerManager;
+use Src\Module\ElasticSearch\DTO\Model\PostDTO;
+use Src\Module\ElasticSearch\ElasticService;
+use Src\Module\ElasticSearch\Index\PostIndex;
 use JetBrains\PhpStorm\NoReturn;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;

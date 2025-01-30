@@ -1,6 +1,6 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Event;
+namespace Src\Module\ElasticSearch\Event;
 
 class ElasticEvents
 {

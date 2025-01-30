@@ -1,6 +1,6 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\DTO\Model;
+namespace Src\Module\ElasticSearch\DTO\Model;
 
 class TermDTO
 {

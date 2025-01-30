@@ -1,8 +1,8 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Search;
+namespace Src\Module\ElasticSearch\Search;
 
-use Gosweb\Module\ElasticSearch\Enum\SortOrder;
+use Src\Module\ElasticSearch\Enum\SortOrder;
 
 class SortCondition
 {

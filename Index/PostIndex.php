@@ -1,9 +1,9 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Index;
+namespace Src\Module\ElasticSearch\Index;
 
-use Gosweb\Module\ElasticSearch\DTO\Model\PostDTO;
-use Gosweb\Module\ElasticSearch\Enum\Index;
+use Src\Module\ElasticSearch\DTO\Model\PostDTO;
+use Src\Module\ElasticSearch\Enum\Index;
 
 class PostIndex extends ElasticIndex
 {

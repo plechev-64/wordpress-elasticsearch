@@ -1,10 +1,10 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch;
+namespace Src\Module\ElasticSearch;
 
 use Elastic\Elasticsearch\Response\Elasticsearch;
-use Gosweb\Module\ElasticSearch\Index\ElasticIndex;
-use Gosweb\Module\ElasticSearch\Search\ElasticRequest;
+use Src\Module\ElasticSearch\Index\ElasticIndex;
+use Src\Module\ElasticSearch\Search\ElasticRequest;
 use Http\Promise\Promise;
 
 interface ElasticClientInterface

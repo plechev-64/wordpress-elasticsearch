@@ -1,8 +1,8 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Search\Post;
+namespace Src\Module\ElasticSearch\Search\Post;
 
-use Gosweb\Module\ElasticSearch\Search\Filter\ElasticFilterAbstract;
+use Src\Module\ElasticSearch\Search\Filter\ElasticFilterAbstract;
 
 class PostSearchFilter extends ElasticFilterAbstract
 {

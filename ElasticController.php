@@ -1,11 +1,11 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch;
+namespace Src\Module\ElasticSearch;
 
-use Gosweb\Core\Rest\Abstract\AbstractController;
-use Gosweb\Core\Rest\Attributes\MapRequest;
-use Gosweb\Core\Rest\Attributes\Route;
-use Gosweb\Module\ElasticSearch\Search\Post\PostSearchFilter;
+use Src\Core\Rest\Abstract\AbstractController;
+use Src\Core\Rest\Attributes\MapRequest;
+use Src\Core\Rest\Attributes\Route;
+use Src\Module\ElasticSearch\Search\Post\PostSearchFilter;
 use Symfony\Component\HttpFoundation\Response;
 
 #[Route(path: '/search')]

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Search;
+namespace Src\Module\ElasticSearch\Search;
 
 class BodyRequest
 {

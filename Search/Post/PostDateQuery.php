@@ -1,6 +1,6 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Search\Post;
+namespace Src\Module\ElasticSearch\Search\Post;
 
 class PostDateQuery
 {

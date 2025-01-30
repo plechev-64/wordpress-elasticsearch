@@ -1,17 +1,17 @@
 <?php
 
-namespace Gosweb\Module\ElasticSearch\Search\Post;
+namespace Src\Module\ElasticSearch\Search\Post;
 
-use Gosweb\Module\ElasticSearch\Enum\Aggregator;
-use Gosweb\Module\ElasticSearch\Enum\Index;
-use Gosweb\Module\ElasticSearch\Enum\Operator;
-use Gosweb\Module\ElasticSearch\Search\ElasticRequest;
-use Gosweb\Module\ElasticSearch\Search\Filter\Condition;
-use Gosweb\Module\ElasticSearch\Search\Filter\ConditionGroup;
-use Gosweb\Module\ElasticSearch\Search\Filter\ElasticFilterAbstract;
-use Gosweb\Module\ElasticSearch\Search\Post\Enum\MetaCompare;
-use Gosweb\Module\ElasticSearch\Search\Post\Enum\QueryRelation;
-use Gosweb\Module\ElasticSearch\Search\Post\Enum\TermOperator;
+use Src\Module\ElasticSearch\Enum\Aggregator;
+use Src\Module\ElasticSearch\Enum\Index;
+use Src\Module\ElasticSearch\Enum\Operator;
+use Src\Module\ElasticSearch\Search\ElasticRequest;
+use Src\Module\ElasticSearch\Search\Filter\Condition;
+use Src\Module\ElasticSearch\Search\Filter\ConditionGroup;
+use Src\Module\ElasticSearch\Search\Filter\ElasticFilterAbstract;
+use Src\Module\ElasticSearch\Search\Post\Enum\MetaCompare;
+use Src\Module\ElasticSearch\Search\Post\Enum\QueryRelation;
+use Src\Module\ElasticSearch\Search\Post\Enum\TermOperator;
 
 class PostRequest extends ElasticRequest
 {
